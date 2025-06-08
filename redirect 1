@@ -13,15 +13,14 @@
       return id;
     }
 
-    window.onload = function() {
+    document.addEventListener("DOMContentLoaded", function() {
       const pid = generateID();
       const redirectURL = "https://martinconstant.net/laybourn_vwm1/?PID=" + pid;
       window.location.href = redirectURL;
-    };
+    });
   </script>
 </head>
 <body>
   <p>Redirecting to the study...</p>
 </body>
 </html>
-

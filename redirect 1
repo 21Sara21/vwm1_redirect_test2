@@ -15,12 +15,13 @@
 
     window.onload = function() {
       const pid = generateID();
-      const targetURL = "https://martinconstant.net/laybourn_vwm1/?PID=" + pid;
-      window.location.href = targetURL;
+      const redirectURL = "https://martinconstant.net/laybourn_vwm1/?PID=" + pid;
+      window.location.href = redirectURL;
     };
   </script>
 </head>
 <body>
-  <p>Redirecting to study...</p>
+  <p>Redirecting to the study...</p>
 </body>
 </html>
+
